@@ -1,0 +1,166 @@
+/* Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #fff;
+  color: #1a1f4e;
+  display: block;
+  height: auto;
+}
+/* Clearfix */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+/* ========== NAV ========== */
+.nav {
+  padding: 26px 0;
+}
+.nav-logo {
+  float: left;
+  font-size: 26px;
+  font-weight: 800;
+  color: #1a1f4e;
+  line-height: 42px;
+}
+.nav-links {
+  float: right;
+  line-height: 42px;
+}
+.nav-links a {
+  display: inline-block;
+  text-decoration: none;
+  color: #1a1f4e;
+  font-size: 15px;
+  margin-left: 36px;
+  line-height: 42px;
+}
+.btn-nav-cta {
+  display: inline-block;
+  margin-left: 36px;
+  padding: 9px 26px;
+  border: 2px solid #e87a5b;
+  border-radius: 28px;
+  background: transparent;
+  color: #1a1f4e;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  line-height: 22px;
+  vertical-align: middle;
+  position: relative;
+  top: 8px;
+}
+/* ========== HERO ========== */
+.hero {
+  padding: 72px 0 60px;
+}
+.hero-content {
+  float: left;
+  width: 44%;
+  padding-top: 48px;
+}
+.hero-image {
+  float: right;
+  width: 53%;
+}
+/* Стили для нового изображения */
+.hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-content h1 {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 1.14;
+  color: #1a1f4e;
+  margin-bottom: 32px;
+}
+.hero-content p {
+  font-size: 15px;
+  line-height: 1.75;
+  color: #666;
+  max-width: 380px;
+  margin-bottom: 48px;
+}
+.hero-buttons {
+  overflow: hidden;
+}
+.btn-primary {
+  float: left;
+  padding: 14px 36px;
+  background: #2e2ef0;
+  color: #fff;
+  border: none;
+  border-radius: 28px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-right: 16px;
+}
+.btn-outline {
+  float: left;
+  padding: 13px 36px;
+  background: transparent;
+  color: #1a1f4e;
+  border: 2px solid #e87a5b;
+  border-radius: 28px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* ========== PARTNERS ========== */
+.partners {
+  padding: 52px 0 72px;
+  border-top: 1px solid #f0f0f0;
+  margin-top: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+.partner-item {
+  display: inline-block;
+  margin: 0 28px;
+  vertical-align: middle;
+  color: #bbb;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.partner-icon-circle {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  border: 3px solid #bbb;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 6px;
+  position: relative;
+  top: -1px;
+}
+.partner-item.script-font {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 22px;
+}
+.partner-item.small-caps {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.partner-item.dark {
+  color: #333;
+}
